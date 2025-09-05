@@ -55,7 +55,7 @@ export const LoginForm = ({ onLogin }: LoginFormProps) => {
         <CardHeader className="text-center space-y-4">
           <div className="text-4xl animate-glow">🍎</div>
           <CardTitle className="text-3xl font-bold text-gradient">
-            Teachers' Day 2024
+            Teachers' Day 2025
           </CardTitle>
           <CardDescription className="text-lg">
             Welcome back, dear teacher! Please login to view your personalized celebration.
