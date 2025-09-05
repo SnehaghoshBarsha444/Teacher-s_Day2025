@@ -1,0 +1,192 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Teachers' Day Design System - Festive and Educational Theme */
+
+@layer base {
+  :root {
+    /* Teachers' Day Color Palette */
+    --background: 45 100% 96%;
+    --foreground: 339 23% 23%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 339 23% 23%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 339 23% 23%;
+
+    /* Primary - Warm Teacher's Red */
+    --primary: 0 73% 58%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Secondary - Academic Gold */
+    --secondary: 45 93% 47%;
+    --secondary-foreground: 339 23% 23%;
+
+    /* Muted - Soft Cream */
+    --muted: 45 100% 96%;
+    --muted-foreground: 339 15% 45%;
+
+    /* Accent - Celebration Orange */
+    --accent: 30 100% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 45 25% 88%;
+    --input: 45 25% 88%;
+    --ring: 0 73% 58%;
+
+    --radius: 1rem;
+
+    /* Custom Teachers' Day Gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(0 73% 58%), hsl(30 100% 60%), hsl(45 93% 47%));
+    --gradient-card: linear-gradient(145deg, hsl(0 0% 100%), hsl(45 100% 98%));
+    --gradient-poem: linear-gradient(180deg, hsl(45 100% 96%), hsl(0 0% 100%));
+    
+    /* Festive Shadows */
+    --shadow-festive: 0 10px 40px -10px hsl(0 73% 58% / 0.3);
+    --shadow-warm: 0 5px 20px -5px hsl(45 93% 47% / 0.4);
+    --shadow-celebration: 0 0 30px hsl(30 100% 60% / 0.2);
+
+    /* Smooth Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-medium;
+  }
+}
+
+@layer components {
+  /* Festive Button Variants */
+  .btn-hero {
+    @apply bg-gradient-to-r from-primary via-accent to-secondary text-primary-foreground;
+    @apply shadow-xl hover:shadow-2xl transform hover:scale-105;
+    @apply transition-all duration-300 ease-out;
+  }
+
+  .btn-celebration {
+    @apply bg-secondary text-secondary-foreground;
+    @apply transition-all duration-300 hover:scale-105;
+    box-shadow: var(--shadow-warm);
+  }
+
+  .btn-celebration:hover {
+    box-shadow: var(--shadow-festive);
+  }
+
+  /* Card Variants */
+  .card-festive {
+    background: var(--gradient-card);
+    box-shadow: var(--shadow-warm);
+    @apply border border-border/50 backdrop-blur-sm;
+    transition: var(--transition-smooth);
+  }
+
+  .card-festive:hover {
+    box-shadow: var(--shadow-festive);
+    @apply scale-105;
+  }
+
+  .card-poem {
+    background: var(--gradient-poem);
+    box-shadow: var(--shadow-celebration);
+    @apply border-2 border-secondary/20;
+  }
+
+  /* Animation Classes */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-glow {
+    animation: glow 2s ease-in-out infinite alternate;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    background: var(--gradient-hero);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .bg-hero {
+    background: var(--gradient-hero);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 20px hsl(var(--secondary) / 0.5); }
+  to { box-shadow: 0 0 30px hsl(var(--secondary) / 0.8), 0 0 40px hsl(var(--accent) / 0.3); }
+}
