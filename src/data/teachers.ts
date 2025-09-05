@@ -403,20 +403,20 @@ Happy Teachers' Day to you!`
   'Soumyadeep': {
     username: 'Soumyadeep',
     password: 'Soumyadeep',
-    name: 'Soumyadeep Sir',
-    poem: `Dear Soumyadeep Sir, wise and deep,
-The treasures of knowledge you help us keep.
-Your thoughtful approach to every lesson,
-Makes learning truly a precious blessing.
+    name: 'Soumyadeep Dada',
+    poem: `Dear  Dada, wise and deep,
+The lessons of life, you help me keep.
+When I'm confused or lose my way,
+You guide me to a brighter day.
 
 With intellect sharp and heart so kind,
-You develop both soul and mind.
-Your guidance helps us understand,
-The world around us, oh so grand.
+You help me see with a clearer mind.
+Your guidance helps me understand,
+Not just the world, but where I stand.
 
 Thank you for your thoughtful care,
-For being someone who's always there
-To help us learn and grow each day.
-Happy Teachers' Day, we say!`
+For being a brother who's always there.
+To show the path and help me see,
+The best person I can truly be!`
   }
 };
