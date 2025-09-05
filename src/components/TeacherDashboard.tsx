@@ -88,7 +88,7 @@ export const TeacherDashboard = ({ teacher, onLogout }: TeacherDashboardProps) =
         {/* Footer */}
         <div className="text-center py-8">
           <p className="text-muted-foreground">
-            With gratitude and appreciation from all your students 💝
+            With gratitude and appreciation from your student 💝
           </p>
           <div className="flex justify-center items-center gap-2 mt-2 text-2xl">
             🌸 🎓 📖 ✏️ 🌸
