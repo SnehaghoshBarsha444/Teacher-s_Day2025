@@ -267,6 +267,25 @@ For making our learning a wonderful trip.
 Happy Teachers' Day to you,
 Our inspiration, strong and true!`
   },
+  'Subhasree_Mam': {
+    username: 'Subhasree_Mam',
+    password: 'Subhasree_Mam',
+    name: 'Subhasree Mam',
+    poem: `Dear Subhasree Mam, our leader true,
+We look up with respect to you.
+Your vision guides our learning way,
+Making brighter every day.
+
+With strength and wisdom you lead,
+Fulfilling every student's need.
+Your dedication sets the tone,
+For excellence we've always known.
+
+Thank you for your leadership,
+For making our learning a wonderful trip.
+Happy Teachers' Day to you,
+Our inspiration, strong and true!`
+  },
   'Amit_Sir': {
     username: 'Amit_Sir',
     password: 'Amit_Sir',
