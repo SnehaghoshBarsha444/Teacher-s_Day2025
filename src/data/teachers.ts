@@ -99,7 +99,7 @@ A guardian angel, strong and true!`
   'Indranil_Sir_YCH': {
     username: 'Indranil_Sir_YCH',
     password: 'Indranil_Sir_YCH',
-    name: 'Indranil Sir',
+    name: 'Indranil Sir (YCH)',
     poem: `Dear Indranil Sir, at YCH so fine,
 Your teaching makes young spirits shine.
 With dedication in your heart,
@@ -114,6 +114,25 @@ Thank you for your tireless care,
 For being someone we can share
 Our dreams and hopes. Happy Teachers' Day,
 To you, our guide along the way!`
+  },
+  'Indranil_Sir': {
+    username: 'Indranil_Sir',
+    password: 'Indranil_Sir',
+    name: 'Indranil Sir',
+    poem: `Dear Indranil Sir, with words so grand,
+You teach the tongue of our dear land.
+From poems deep to stories told,
+A world of culture you unfold.
+
+Your passion for Bengali's grace,
+Puts a smile on every face.
+You help us speak and write with pride,
+With you as our amazing guide.
+
+Thank you for the knowledge shared,
+And for the gentle way you've cared.
+Happy Teachers' Day to you,
+A teacher wonderful and true!`
   },
   'Anamika_Mam': {
     username: 'Anamika_Mam',
