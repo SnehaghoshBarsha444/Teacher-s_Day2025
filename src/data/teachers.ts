@@ -400,11 +400,53 @@ For giving each of us a start
 Towards happiness and knowledge too.
 Happy Teachers' Day to you!`
   },
+  'Sudip_Sir': {
+    username: 'Sudip_Sir',
+    password: 'Sudip_Sir',
+    name: 'Sudip Sir',
+    poem: `Dear Sudip Sir, on this special day,
+We thank you for the role you play.
+Your lessons help us understand,
+The topics taught across the land.
+
+Thank you for the time you share,
+And for your guidance and your care.
+Happy Teachers' Day to you,
+For everything you say and do!`
+  },
+  'Suseta_Mam': {
+    username: 'Suseta_Mam',
+    password: 'Suseta_Mam',
+    name: 'Suseta Mam',
+    poem: `Dear Suseta Mam, we'd like to say,
+A very Happy Teachers' Day.
+For all the lectures you impart,
+We thank you from the bottom of our heart.
+
+Your teaching helps to light the way,
+And brighten up our college day.
+Thank you for your patient art,
+And giving us a better start.`
+  },
+  'Pranay_Kumar_Ghosh': {
+    username: 'Pranay_Kumar_Ghosh',
+    password: 'Pranay_Kumar_Ghosh',
+    name: 'Pranay Kumar Ghosh Dada',
+    poem: `Dear Pranay Dada, a senior so kind,
+You help my ambitions unwind.
+With guidance and a helping hand,
+You help me grow and understand.
+
+Thank you for the path you've shown,
+And for the seeds of wisdom sown.
+You're more than a senior, it's true,
+A mentor and a guide—thank you.`
+  },
   'Soumyadeep': {
     username: 'Soumyadeep',
     password: 'Soumyadeep',
     name: 'Soumyadeep Dada',
-    poem: `Dear  Dada, wise and deep,
+    poem: `Dear Dada, wise and deep,
 The lessons of life, you help me keep.
 When I'm confused or lose my way,
 You guide me to a brighter day.
